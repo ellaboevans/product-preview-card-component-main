@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background:hsl(30, 38%, 92%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 0 auto;
+    background: white;
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50px;
+}
+.card .modal{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    width: 100%;
+    
+}
+.card .modal .product{
+    padding: 50px 20px 50px 0px;
+    margin-bottom: 4rem;
+    top: -100px;
+    object-fit: cover;
+}
+
+.card .modal .detail{
+    display: inline;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px;
+}
+.detail h4{
+    margin-bottom: 3rem;
+}
+.card .modal .price{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
